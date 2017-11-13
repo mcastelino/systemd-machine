@@ -43,4 +43,4 @@ RUN set -x \
 
 VOLUME /sys/fs/cgroup
 
-CMD /aio
+CMD /aio.cc

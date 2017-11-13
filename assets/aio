@@ -15,8 +15,6 @@
 #    under the License.
 set -xe
 
-#mount -t tmpfs cgroup_root /sys/fs/cgroup
-
 echo 'Starting Systemd'
 exec /bin/systemd --system &
 exec bash

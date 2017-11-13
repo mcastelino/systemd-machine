@@ -1,7 +1,7 @@
 # systemd-machine
 systemd-machine container
 
-Derived from https://github.com/mcastelino/openstack-helm
+Derived from https://github.com/openstack/openstack-helm
 
 # Building the container image
 docker build --build-arg http_proxy=$http_proxy --build-arg https_proxy=$https_proxy -t mcastelino/systemd-machine .
